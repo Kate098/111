@@ -38,3 +38,55 @@
 .menu a {
     color: var(--white);
 }
+
+.text {
+    margin-top: 340px;
+}
+
+.text h1 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.text-p1 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.button {
+    color: var(--white);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: var(--red);
+    padding: 13px 31px;
+    border-radius: 50px;
+    width: 162px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 65px;
+}
+
+.btn {
+    box-shadow: 0px 2px 20px 0px var(--black);
+}
+
+.text-p {
+    width: 637px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 16px;
+    line-height: 26px;
+}
