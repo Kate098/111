@@ -204,3 +204,41 @@
     font-size: 14px;
     font-weight: 400;
 }
+
+.bgimg4 {
+    height: 613px;
+}
+
+.bgimg4 h1 {
+    font-weight: 600;
+    padding-top: 110px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--darkblue);
+    font-size: 32px;
+}
+
+.form {
+    align-items: center;
+    padding-top: 56px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 56px;
+}
+
+input {
+    border-bottom: 1px solid var(--darkblue2);
+    outline: none;
+    width: 335px;
+}
+
+.form1 {
+    padding-top: 45px;
+}
+
+::placeholder {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    color: var(--darkblue);
+    font-weight: 500;
+}
