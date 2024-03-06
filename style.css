@@ -1,0 +1,40 @@
+:root {
+    --white: #fff;
+    --red: #FF6565;
+    --darkblue: #071629;
+    --darkblue2: #07162963;
+    --transparent: rgba(255, 255, 255, 0.36);
+    --black: rgba(0, 0, 0, 0.50);
+}
+
+.bgimg1 {
+    background-image: url(./image/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 255px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.menu a {
+    color: var(--white);
+}
