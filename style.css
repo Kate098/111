@@ -153,3 +153,54 @@
     font-size: 18px;
     padding-top: 24px;
 }
+
+.bgimg3 {
+    background-image: url(./image/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.bgimg3 h1 {
+    font-weight: 600;
+    padding-top: 141px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--white);
+    font-size: 32px;
+}
+
+.polygons {
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pol {
+    width: 190px;
+}
+
+.main-p {
+    position: absolute;
+    z-index: 5;
+}
+
+.main-p h3 {
+    padding-top: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--white);
+    font-size: 46px;
+    font-weight: 700;
+    padding-left: 50px;
+}
+
+.main-p p {
+    padding-top: 10px;
+    padding-left: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+}
