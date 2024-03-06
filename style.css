@@ -242,3 +242,31 @@ input {
     color: var(--darkblue);
     font-weight: 500;
 }
+
+.footer {
+    background-color: var(--darkblue);
+    height: 249px;
+}
+
+.content-footer {
+    padding-top: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    color: var(--transparent);
+    font-weight: 400;
+    text-align: center;
+    padding-top: 71px;
+}
